@@ -170,7 +170,7 @@ async function linkMailer(user_email,id,response) {
   
   const verificationString = generateRandomString();
 
-  const passwordResetPage = `https://authentication-work-by-rv.netlify.app/password_Reset/${id}&${verificationString}`;
+  const passwordResetPage = `https://authentication-by-rv.herokuapp.com/password_Reset/${id}&${verificationString}`;
   
  
   var mailOptions = {
