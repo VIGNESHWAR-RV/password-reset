@@ -11,7 +11,7 @@ dotenv.config();
 
 const app = express();
 
-const port = process.env.port;
+const port = process.env.PORT;
 const MONGO_URL = process.env.MONGO_URL;
 
 async function createConnection(){
